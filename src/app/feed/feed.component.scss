@@ -1,0 +1,36 @@
+@import 'fonts';
+@import 'variables';
+@import 'mixins';
+
+.feed{
+  width:100vw;
+  height: auto;
+}
+
+
+.feed-content{
+  width: 100vw;
+}
+
+.feed-ul{
+  width: 100vw;
+  padding-bottom: 100vh;
+  .feed-li{
+    z-index:$z-feed;
+    position: relative;
+    margin-top: $margin-top-li;
+    &:first-child{
+      margin-top: $margin-top;
+    }
+    &:last-child{
+      margin-bottom: $margin-top;
+    }
+    a{
+      width: auto;
+      display: block;
+    }
+    img{
+
+    }
+  }
+}

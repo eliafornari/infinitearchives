@@ -1,0 +1,64 @@
+@import 'variables';
+
+.detail{
+  width: 100%;
+  height: auto;
+}
+
+.detail-cover{
+  width: 100%;
+  position: fixed;
+  z-index:$z-detail-cover;
+  img{
+    width: 100vw;
+  }
+}
+
+.detail-title{
+  position: fixed;
+  top:$margin-sides;
+  right: $margin-sides;
+  z-index:$z-detail-li;
+}
+
+.detail-ul{
+  padding-top: 100vh;
+  z-index:$z-detail-li;
+  position: relative;
+  .detail-li{
+    width: 100vw;
+    height: auto;
+    margin-top: $margin-top-li;
+    margin-bottom: $margin-top-li;
+    display: block;
+    &:first-child{
+      margin-top: $margin-top;
+    }
+    &:last-child{
+      margin-bottom: $margin-top;
+    }
+    .detail-img{
+      width: 100%;
+      margin: auto;
+      img{
+        width: 50vw;
+        margin: auto;
+        display: block;
+      }
+    }
+
+  }
+}
+
+
+.detail-gallery{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: scroll;
+  white-space: nowrap;
+  img{
+    display: inline-block;
+    width: 80vw;
+  }
+
+}

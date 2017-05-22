@@ -1,0 +1,16 @@
+<nav class="nav">
+   <!-- (mouseenter)='openNav()' (mouseout)='closeNav()' -->
+  <ul class="nav-ul">
+     <!-- [@navUlState]="isNav" -->
+    <li class="nav-li" >
+       <!-- [@navLiState]="isNav" -->
+      <a [routerLink]="['/']" class="nav-a">home</a>
+    </li>
+    <li class="nav-li">
+      <a [routerLink]="['/about']" class="nav-a">about</a>
+    </li>
+    <li class="nav-li">
+      <a [routerLink]="['/contact']" class="nav-a">contact</a>
+    </li>
+  </ul>
+</nav>

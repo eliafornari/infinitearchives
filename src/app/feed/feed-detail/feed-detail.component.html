@@ -1,0 +1,32 @@
+<div class="detail" *ngIf="detail">
+
+<h1 class="detail-title">{{detail.data["post.title"].value["0"].text}}</h1>
+
+<div class="detail-cover">
+  <img [src]="detail.data['post.cover'].value[0].image.value.main.url" alt="">
+</div>
+  <!-- <h1>{{detail.data['post.title'].value[0].text}}</h1> -->
+
+  <div class="detail-content" >
+
+    <ul class="detail-ul">
+      <li class="detail-li" *ngFor="let d of detail.data['post.post'].value">
+
+
+        <div class="detail-img" *ngIf="d.slice_type=='image'">
+          <img src="{{d.value.value[0].image.value.main.url}}" alt="">
+        </div>
+
+        <div class="detail-gallery" *ngIf="d.slice_type=='gallery'">
+          <img src="{{g.image.value.main.url}}" alt="" *ngFor="let g of d.value.value">
+        </div>
+        <!-- <img src="d.value.value[0].image.value.main.url" alt="" *ngIf="d.slice_type =='image'"> -->
+
+
+      <!-- detail -->
+
+    </li>
+    </ul>
+
+  </div>
+</div>
