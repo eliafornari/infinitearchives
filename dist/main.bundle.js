@@ -39,8 +39,8 @@ var FeedDetailComponent = (function () {
 FeedDetailComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
         selector: 'app-feed-detail',
-        template: __webpack_require__(179),
-        styles: [__webpack_require__(169)]
+        template: __webpack_require__(178),
+        styles: [__webpack_require__(168)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1__shared_prismic_service__["a" /* PrismicService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__shared_prismic_service__["a" /* PrismicService */]) === "function" && _c || Object])
 ], FeedDetailComponent);
@@ -187,8 +187,8 @@ __decorate([
 FeedComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
         // selector: 'app-feed',
-        template: __webpack_require__(180),
-        styles: [__webpack_require__(170)]
+        template: __webpack_require__(179),
+        styles: [__webpack_require__(169)]
     }),
     __param(2, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["F" /* Inject */])(__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["d" /* DOCUMENT */])),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__shared_variables_service__["a" /* GlobalService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__shared_variables_service__["a" /* GlobalService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__shared_prismic_service__["a" /* PrismicService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__shared_prismic_service__["a" /* PrismicService */]) === "function" && _b || Object, Object])
@@ -294,8 +294,8 @@ var StylingDetailComponent = (function () {
 StylingDetailComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
         selector: 'app-styling-detail',
-        template: __webpack_require__(181),
-        styles: [__webpack_require__(171)]
+        template: __webpack_require__(180),
+        styles: [__webpack_require__(170)]
     }),
     __metadata("design:paramtypes", [])
 ], StylingDetailComponent);
@@ -331,8 +331,8 @@ var StylingComponent = (function () {
 StylingComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
         // selector: 'app-styling',
-        template: __webpack_require__(182),
-        styles: [__webpack_require__(172)]
+        template: __webpack_require__(181),
+        styles: [__webpack_require__(171)]
     }),
     __metadata("design:paramtypes", [])
 ], StylingComponent);
@@ -370,8 +370,8 @@ var LogoComponent = (function () {
 LogoComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
         selector: 'app-logo',
-        template: __webpack_require__(183),
-        styles: [__webpack_require__(173)]
+        template: __webpack_require__(182),
+        styles: [__webpack_require__(172)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__shared_variables_service__["a" /* GlobalService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__shared_variables_service__["a" /* GlobalService */]) === "function" && _a || Object])
 ], LogoComponent);
@@ -412,8 +412,8 @@ var LogotypeComponent = (function () {
 LogotypeComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
         selector: 'app-logotype',
-        template: __webpack_require__(184),
-        styles: [__webpack_require__(174)],
+        template: __webpack_require__(183),
+        styles: [__webpack_require__(173)],
         animations: [
             __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_animations__["f" /* trigger */])('navLiState', [
                 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_animations__["g" /* state */])('0', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_animations__["c" /* style */])({
@@ -485,8 +485,8 @@ __decorate([
 NavComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
         selector: 'app-nav',
-        template: __webpack_require__(185),
-        styles: [__webpack_require__(175)],
+        template: __webpack_require__(184),
+        styles: [__webpack_require__(174)],
         animations: [
             __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["f" /* trigger */])('navLiState', [
                 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["g" /* state */])('0', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["c" /* style */])({
@@ -611,38 +611,45 @@ GlobalService = __decorate([
 
 /***/ }),
 
-/***/ 166:
+/***/ 165:
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
 
-/***/ 167:
+/***/ 166:
 /***/ (function(module, exports) {
 
 module.exports = "@font-face {\n  font-family: didot;\n  src: url(\"/assets/fonts/didot/Didot.woff2\") format(\"woff2\"), url(\"/assets/fonts/didot/Didot.woff\") format(\"woff\"), url(\"/assets/fonts/didot/Didot.otf\") format(\"otf\"); }\n\n/*....................................SCSS VARIABLES..................................*/\n/*....................................................................................*/\n/*.................................................................................*/\n/*$break-large-desktop: 2500px;*/\n/*$break-infinite: 500000px;*/\n/*....................................SCSS MIXINS..................................*/\nhtml {\n  background-color: #000000; }\n"
 
 /***/ }),
 
-/***/ 168:
+/***/ 167:
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
 
-/***/ 169:
+/***/ 168:
 /***/ (function(module, exports) {
 
 module.exports = "/*....................................SCSS VARIABLES..................................*/\n/*....................................................................................*/\n.detail {\n  width: 100%;\n  height: auto; }\n\n.detail-cover {\n  width: 100%;\n  position: fixed;\n  z-index: 3; }\n  .detail-cover img {\n    width: 100vw; }\n\n.detail-title {\n  position: fixed;\n  top: 25px;\n  right: 25px;\n  z-index: 4; }\n\n.detail-ul {\n  padding-top: 100vh;\n  z-index: 4;\n  position: relative; }\n  .detail-ul .detail-li {\n    width: 100vw;\n    height: auto;\n    margin-top: 100px;\n    margin-bottom: 100px;\n    display: block; }\n    .detail-ul .detail-li:first-child {\n      margin-top: 150px; }\n    .detail-ul .detail-li:last-child {\n      margin-bottom: 150px; }\n    .detail-ul .detail-li .detail-img {\n      width: 100%;\n      margin: auto; }\n      .detail-ul .detail-li .detail-img img {\n        width: 50vw;\n        margin: auto;\n        display: block; }\n\n.detail-gallery {\n  width: 100vw;\n  height: 100vh;\n  overflow-x: scroll;\n  white-space: nowrap; }\n  .detail-gallery img {\n    display: inline-block;\n    width: 80vw; }\n"
 
 /***/ }),
 
-/***/ 170:
+/***/ 169:
 /***/ (function(module, exports) {
 
 module.exports = "@font-face {\n  font-family: didot;\n  src: url(\"/assets/fonts/didot/Didot.woff2\") format(\"woff2\"), url(\"/assets/fonts/didot/Didot.woff\") format(\"woff\"), url(\"/assets/fonts/didot/Didot.otf\") format(\"otf\"); }\n\n/*....................................SCSS VARIABLES..................................*/\n/*....................................................................................*/\n/*.................................................................................*/\n/*$break-large-desktop: 2500px;*/\n/*$break-infinite: 500000px;*/\n/*....................................SCSS MIXINS..................................*/\n.feed {\n  width: 100vw;\n  height: auto; }\n\n.feed-content {\n  width: 100vw; }\n\n.feed-ul {\n  width: 100vw;\n  padding-bottom: 100vh; }\n  .feed-ul .feed-li {\n    z-index: 7;\n    position: relative;\n    margin-top: 100px; }\n    .feed-ul .feed-li:first-child {\n      margin-top: 150px; }\n    .feed-ul .feed-li:last-child {\n      margin-bottom: 150px; }\n    .feed-ul .feed-li a {\n      width: auto;\n      display: block; }\n"
+
+/***/ }),
+
+/***/ 170:
+/***/ (function(module, exports) {
+
+module.exports = ""
 
 /***/ }),
 
@@ -656,102 +663,95 @@ module.exports = ""
 /***/ 172:
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "@font-face {\n  font-family: didot;\n  src: url(\"/assets/fonts/didot/Didot.woff2\") format(\"woff2\"), url(\"/assets/fonts/didot/Didot.woff\") format(\"woff\"), url(\"/assets/fonts/didot/Didot.otf\") format(\"otf\"); }\n\n/*....................................SCSS VARIABLES..................................*/\n/*....................................................................................*/\n/*.................................................................................*/\n/*$break-large-desktop: 2500px;*/\n/*$break-infinite: 500000px;*/\n/*....................................SCSS MIXINS..................................*/\n.logo {\n  position: fixed;\n  width: 100px;\n  height: 100px;\n  top: 50%;\n  left: 50%;\n  margin-left: -50px;\n  margin-top: -50px;\n  z-index: 0; }\n  .logo svg {\n    display: block;\n    width: 100%;\n    height: 100%;\n    display: block; }\n"
 
 /***/ }),
 
 /***/ 173:
 /***/ (function(module, exports) {
 
-module.exports = "@font-face {\n  font-family: didot;\n  src: url(\"/assets/fonts/didot/Didot.woff2\") format(\"woff2\"), url(\"/assets/fonts/didot/Didot.woff\") format(\"woff\"), url(\"/assets/fonts/didot/Didot.otf\") format(\"otf\"); }\n\n/*....................................SCSS VARIABLES..................................*/\n/*....................................................................................*/\n/*.................................................................................*/\n/*$break-large-desktop: 2500px;*/\n/*$break-infinite: 500000px;*/\n/*....................................SCSS MIXINS..................................*/\n.logo {\n  position: fixed;\n  width: 100px;\n  height: 100px;\n  top: 50%;\n  left: 50%;\n  margin-left: -50px;\n  margin-top: -50px;\n  z-index: 0; }\n  .logo svg {\n    display: block;\n    width: 100%;\n    height: 100%;\n    display: block; }\n"
+module.exports = "@font-face {\n  font-family: didot;\n  src: url(\"/assets/fonts/didot/Didot.woff2\") format(\"woff2\"), url(\"/assets/fonts/didot/Didot.woff\") format(\"woff\"), url(\"/assets/fonts/didot/Didot.otf\") format(\"otf\"); }\n\n/*....................................SCSS VARIABLES..................................*/\n/*....................................................................................*/\n/*.................................................................................*/\n/*$break-large-desktop: 2500px;*/\n/*$break-infinite: 500000px;*/\n/*....................................SCSS MIXINS..................................*/\n.logotype {\n  position: fixed;\n  width: 150px;\n  height: 60px;\n  top: 50%;\n  left: 50%;\n  margin-left: -75px;\n  margin-top: -30px;\n  z-index: 0; }\n  .logotype svg {\n    display: block;\n    width: 100%;\n    height: 100%;\n    display: block; }\n"
 
 /***/ }),
 
 /***/ 174:
 /***/ (function(module, exports) {
 
-module.exports = "@font-face {\n  font-family: didot;\n  src: url(\"/assets/fonts/didot/Didot.woff2\") format(\"woff2\"), url(\"/assets/fonts/didot/Didot.woff\") format(\"woff\"), url(\"/assets/fonts/didot/Didot.otf\") format(\"otf\"); }\n\n/*....................................SCSS VARIABLES..................................*/\n/*....................................................................................*/\n/*.................................................................................*/\n/*$break-large-desktop: 2500px;*/\n/*$break-infinite: 500000px;*/\n/*....................................SCSS MIXINS..................................*/\n.logotype {\n  position: fixed;\n  width: 150px;\n  height: 60px;\n  top: 50%;\n  left: 50%;\n  margin-left: -75px;\n  margin-top: -30px;\n  z-index: 0; }\n  .logotype svg {\n    display: block;\n    width: 100%;\n    height: 100%;\n    display: block; }\n"
+module.exports = "/*....................................SCSS VARIABLES..................................*/\n/*....................................................................................*/\n/*.................................................................................*/\n/*$break-large-desktop: 2500px;*/\n/*$break-infinite: 500000px;*/\n/*....................................SCSS MIXINS..................................*/\n.nav {\n  position: fixed;\n  bottom: 25px;\n  left: 25px;\n  width: 100px;\n  z-index: 10; }\n\n.nav-ul {\n  width: 100%;\n  display: block;\n  height: auto;\n  position: relative; }\n  .nav-ul .nav-li {\n    width: 100px;\n    position: relative;\n    display: inline-block; }\n    .nav-ul .nav-li a {\n      width: 100%;\n      display: block;\n      height: 100%;\n      line-height: auto;\n      vertical-align: middle;\n      transition: margin 0.5s ease;\n      -webkit-transition: margin 0.5s ease;\n      -moz-transition: margin 0.5s ease;\n      -ms-transition: margin 0.5s ease;\n      -o-transition: margin 0.5s ease;\n      font-size: 24px;\n      line-height: 30px;\n      font-family: \"didot\";\n      letter-spacing: 0px;\n      font-weight: 900;\n      /*  @if $media == large-desktop {\n    @media only screen and (min-width: $break-large-desktop + 1) and (max-width: $break-infinite) { @content; }\n  }*/ }\n      @media only screen and (min-width: 0px) and (max-width: 767px) {\n        .nav-ul .nav-li a {\n          font-size: 20px;\n          line-height: 30px; } }\n      .nav-ul .nav-li a:hover {\n        margin-left: 5px; }\n\n.nav-ul.open .nav-li {\n  position: relative; }\n"
 
 /***/ }),
 
 /***/ 175:
 /***/ (function(module, exports) {
 
-module.exports = "/*....................................SCSS VARIABLES..................................*/\n/*....................................................................................*/\n/*.................................................................................*/\n/*$break-large-desktop: 2500px;*/\n/*$break-infinite: 500000px;*/\n/*....................................SCSS MIXINS..................................*/\n.nav {\n  position: fixed;\n  bottom: 25px;\n  left: 25px;\n  width: 100px;\n  z-index: 10; }\n\n.nav-ul {\n  width: 100%;\n  display: block;\n  height: auto;\n  position: relative; }\n  .nav-ul .nav-li {\n    width: 100px;\n    position: relative;\n    display: inline-block; }\n    .nav-ul .nav-li a {\n      width: 100%;\n      display: block;\n      height: 100%;\n      line-height: auto;\n      vertical-align: middle;\n      transition: margin 0.5s ease;\n      -webkit-transition: margin 0.5s ease;\n      -moz-transition: margin 0.5s ease;\n      -ms-transition: margin 0.5s ease;\n      -o-transition: margin 0.5s ease;\n      font-size: 24px;\n      line-height: 30px;\n      font-family: \"didot\";\n      letter-spacing: 0px;\n      font-weight: 900;\n      /*  @if $media == large-desktop {\n    @media only screen and (min-width: $break-large-desktop + 1) and (max-width: $break-infinite) { @content; }\n  }*/ }\n      @media only screen and (min-width: 0px) and (max-width: 767px) {\n        .nav-ul .nav-li a {\n          font-size: 20px;\n          line-height: 30px; } }\n      .nav-ul .nav-li a:hover {\n        margin-left: 5px; }\n\n.nav-ul.open .nav-li {\n  position: relative; }\n"
+module.exports = "<p>\n  about page\n</p>\n"
 
 /***/ }),
 
 /***/ 176:
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  about page\n</p>\n"
+module.exports = "<router-outlet></router-outlet>\n<app-logo></app-logo>\n\n<!-- <app-nav></app-nav>  -->\n"
 
 /***/ }),
 
 /***/ 177:
 /***/ (function(module, exports) {
 
-module.exports = "<router-outlet></router-outlet>\n<app-logo></app-logo>\n\n<!-- <app-nav></app-nav>  -->\n"
+module.exports = "<p>\n  contact works!\n</p>\n"
 
 /***/ }),
 
 /***/ 178:
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  contact works!\n</p>\n"
+module.exports = "<div class=\"detail\" *ngIf=\"detail\">\n\n<h1 class=\"detail-title\">{{detail.data[\"post.title\"].value[\"0\"].text}}</h1>\n\n<div class=\"detail-cover\">\n  <img [src]=\"detail.data['post.cover'].value[0].image.value.main.url\" alt=\"\">\n</div>\n  <!-- <h1>{{detail.data['post.title'].value[0].text}}</h1> -->\n\n  <div class=\"detail-content\" >\n\n    <ul class=\"detail-ul\">\n      <li class=\"detail-li\" *ngFor=\"let d of detail.data['post.post'].value\">\n\n\n        <div class=\"detail-img\" *ngIf=\"d.slice_type=='image'\">\n          <img src=\"{{d.value.value[0].image.value.main.url}}\" alt=\"\">\n        </div>\n\n        <div class=\"detail-gallery\" *ngIf=\"d.slice_type=='gallery'\">\n          <img src=\"{{g.image.value.main.url}}\" alt=\"\" *ngFor=\"let g of d.value.value\">\n        </div>\n        <!-- <img src=\"d.value.value[0].image.value.main.url\" alt=\"\" *ngIf=\"d.slice_type =='image'\"> -->\n\n\n      <!-- detail -->\n\n    </li>\n    </ul>\n\n  </div>\n</div>\n"
 
 /***/ }),
 
 /***/ 179:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"detail\" *ngIf=\"detail\">\n\n<h1 class=\"detail-title\">{{detail.data[\"post.title\"].value[\"0\"].text}}</h1>\n\n<div class=\"detail-cover\">\n  <img [src]=\"detail.data['post.cover'].value[0].image.value.main.url\" alt=\"\">\n</div>\n  <!-- <h1>{{detail.data['post.title'].value[0].text}}</h1> -->\n\n  <div class=\"detail-content\" >\n\n    <ul class=\"detail-ul\">\n      <li class=\"detail-li\" *ngFor=\"let d of detail.data['post.post'].value\">\n\n\n        <div class=\"detail-img\" *ngIf=\"d.slice_type=='image'\">\n          <img src=\"{{d.value.value[0].image.value.main.url}}\" alt=\"\">\n        </div>\n\n        <div class=\"detail-gallery\" *ngIf=\"d.slice_type=='gallery'\">\n          <img src=\"{{g.image.value.main.url}}\" alt=\"\" *ngFor=\"let g of d.value.value\">\n        </div>\n        <!-- <img src=\"d.value.value[0].image.value.main.url\" alt=\"\" *ngIf=\"d.slice_type =='image'\"> -->\n\n\n      <!-- detail -->\n\n    </li>\n    </ul>\n\n  </div>\n</div>\n"
+module.exports = "<div class=\"feed\">\n\n  <!-- <div class=\"feed-content\" *ngIf=\"feed\">\n    <ul class=\"feed-ul\">\n      <li *ngFor='let f of feed.results' class=\"feed-li\">\n        <a [routerLink]=\"[f.data['post.type'].value, f.uid]\" class=\"feed-a\">\n          <img class=\"feed-img\" [src]=\"f.data['post.cover'].value[0].image.value.main.url\"\n          [style.width]=\"f.data['post.cover'].value[0].width.value + 'vw'\"\n          [style.margin-left]=\"f.data['post.cover'].value[0].left.value + 'vw'\"\n          alt=\"\" >\n        </a>\n      </li>\n    </ul>\n  </div> -->\n\n</div>\n"
 
 /***/ }),
 
 /***/ 180:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"feed\">\n\n  <!-- <div class=\"feed-content\" *ngIf=\"feed\">\n    <ul class=\"feed-ul\">\n      <li *ngFor='let f of feed.results' class=\"feed-li\">\n        <a [routerLink]=\"[f.data['post.type'].value, f.uid]\" class=\"feed-a\">\n          <img class=\"feed-img\" [src]=\"f.data['post.cover'].value[0].image.value.main.url\"\n          [style.width]=\"f.data['post.cover'].value[0].width.value + 'vw'\"\n          [style.margin-left]=\"f.data['post.cover'].value[0].left.value + 'vw'\"\n          alt=\"\" >\n        </a>\n      </li>\n    </ul>\n  </div> -->\n\n</div>\n"
+module.exports = "<p>\n  styling-detail works!\n</p>\n"
 
 /***/ }),
 
 /***/ 181:
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  styling-detail works!\n</p>\n"
+module.exports = "<p>\n  styling works!\n</p>\n"
 
 /***/ }),
 
 /***/ 182:
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  styling works!\n</p>\n"
+module.exports = "<div class=\"logo\" *ngIf=\"!_globalService.pageLoading\">\n  <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n  \t width=\"4000px\" height=\"4000px\" viewBox=\"0 0 4000 4000\" style=\"enable-background:new 0 0 4000 4000;\" xml:space=\"preserve\">\n  <g>\n  \t<g>\n  \t\t<path style=\"fill:#FFFFFF;stroke:#010101;stroke-width:22.4374;stroke-miterlimit:10;\" d=\"M1046.213,2515.425H733.849v-1030.85\n  \t\t\th312.365V2515.425z\"/>\n  \t\t<path style=\"fill:#FFFFFF;stroke:#010101;stroke-width:22.4374;stroke-miterlimit:10;\" d=\"M3266.151,2515.425h-321.903\n  \t\t\tl-109.689-197.739h-672.418l-109.689,197.739h-309.979l593.734-1030.85h336.211L3266.151,2515.425z M2739.182,2149.028\n  \t\t\tl-240.834-434.73l-240.83,434.73H2739.182z\"/>\n  \t</g>\n  </g>\n  <g>\n  </g>\n  <g>\n  </g>\n  <g>\n  </g>\n  <g>\n  </g>\n  <g>\n  </g>\n  <g>\n  </g>\n  </svg>\n</div>\n"
 
 /***/ }),
 
 /***/ 183:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"logo\" *ngIf=\"!_globalService.pageLoading\">\n  <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n  \t width=\"4000px\" height=\"4000px\" viewBox=\"0 0 4000 4000\" style=\"enable-background:new 0 0 4000 4000;\" xml:space=\"preserve\">\n  <g>\n  \t<g>\n  \t\t<path style=\"fill:#FFFFFF;stroke:#010101;stroke-width:22.4374;stroke-miterlimit:10;\" d=\"M1046.213,2515.425H733.849v-1030.85\n  \t\t\th312.365V2515.425z\"/>\n  \t\t<path style=\"fill:#FFFFFF;stroke:#010101;stroke-width:22.4374;stroke-miterlimit:10;\" d=\"M3266.151,2515.425h-321.903\n  \t\t\tl-109.689-197.739h-672.418l-109.689,197.739h-309.979l593.734-1030.85h336.211L3266.151,2515.425z M2739.182,2149.028\n  \t\t\tl-240.834-434.73l-240.83,434.73H2739.182z\"/>\n  \t</g>\n  </g>\n  <g>\n  </g>\n  <g>\n  </g>\n  <g>\n  </g>\n  <g>\n  </g>\n  <g>\n  </g>\n  <g>\n  </g>\n  </svg>\n</div>\n"
+module.exports = "<div class=\"logotype\" *ngIf=\"_globalService.pageLoading\">\n\n\n\n</div>\n"
 
 /***/ }),
 
 /***/ 184:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"logotype\" *ngIf=\"_globalService.pageLoading\">\n\n\n\n</div>\n"
-
-/***/ }),
-
-/***/ 185:
-/***/ (function(module, exports) {
-
 module.exports = "<nav class=\"nav\">\n   <!-- (mouseenter)='openNav()' (mouseout)='closeNav()' -->\n  <ul class=\"nav-ul\">\n     <!-- [@navUlState]=\"isNav\" -->\n    <li class=\"nav-li\" >\n       <!-- [@navLiState]=\"isNav\" -->\n      <a [routerLink]=\"['/']\" class=\"nav-a\">home</a>\n    </li>\n    <li class=\"nav-li\">\n      <a [routerLink]=\"['/about']\" class=\"nav-a\">about</a>\n    </li>\n    <li class=\"nav-li\">\n      <a [routerLink]=\"['/contact']\" class=\"nav-a\">contact</a>\n    </li>\n  </ul>\n</nav>\n"
 
 /***/ }),
 
-/***/ 220:
+/***/ 219:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(89);
@@ -767,11 +767,11 @@ module.exports = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(191);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_do__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_do__ = __webpack_require__(190);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_do___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_do__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_catch__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_catch__ = __webpack_require__(189);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_catch__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrismicService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -884,8 +884,8 @@ var AboutComponent = (function () {
 }());
 AboutComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
-        template: __webpack_require__(176),
-        styles: [__webpack_require__(166)]
+        template: __webpack_require__(175),
+        styles: [__webpack_require__(165)]
     }),
     __metadata("design:paramtypes", [])
 ], AboutComponent);
@@ -964,8 +964,8 @@ __decorate([
 AppComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
         selector: 'app-root',
-        template: __webpack_require__(177),
-        styles: [__webpack_require__(167)],
+        template: __webpack_require__(176),
+        styles: [__webpack_require__(166)],
         animations: [__WEBPACK_IMPORTED_MODULE_1__animations__["a" /* slideInDownAnimation */]]
     })
 ], AppComponent);
@@ -1076,8 +1076,8 @@ var ContactComponent = (function () {
 ContactComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
         selector: 'app-contact',
-        template: __webpack_require__(178),
-        styles: [__webpack_require__(168)]
+        template: __webpack_require__(177),
+        styles: [__webpack_require__(167)]
     }),
     __metadata("design:paramtypes", [])
 ], ContactComponent);
@@ -1086,5 +1086,5 @@ ContactComponent = __decorate([
 
 /***/ })
 
-},[220]);
+},[219]);
 //# sourceMappingURL=main.bundle.map
